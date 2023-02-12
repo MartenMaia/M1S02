@@ -1,0 +1,19 @@
+td{
+    padding: 8px;
+    background-color: white;
+    width: 6.5rem;
+}
+
+table{
+    width: auto;
+    /* border: 2px solid white; */
+    background-color: gray;
+}
+
+img{
+    width: 15rem;
+}
+
+div{
+    width: 200;
+}

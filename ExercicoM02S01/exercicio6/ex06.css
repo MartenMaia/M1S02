@@ -1,0 +1,123 @@
+:root, head, body, div{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header, div, main, footer, button, h4{
+    display: flex;
+}
+
+header{
+    flex-direction: row;
+    justify-content:space-around;
+    height: 5vh;
+    align-items: center;
+    background-color: darkred;
+    color: white;
+}
+
+header dt{
+    margin-right: 300px;
+    margin-left: 100px;
+    font-size: large;
+    font-weight: 600;
+}
+
+header dd{
+    margin-right: 40px;
+    font-weight: 400;
+}
+
+main{
+    flex-direction: column;
+    height: 85vh;
+    justify-content: space-around;
+}
+
+.blocao{
+    justify-content: space-around;
+}
+
+.blocos{
+    flex-direction: row;
+    border: 1px black solid;
+    border-radius: 5px;
+    width: 350px;
+}
+
+main .blocos div{
+    flex-direction: column;
+}
+
+.floripa{
+    background-image: url('https://s2.glbimg.com/K5YHuz8VdZKkHmXI348znPew9gE=/0x0:800x600/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/q/C/2utgN2RVurIDRgrE7NhA/florianopolis-pmf.jpg');
+    height: 250px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.curitiba{
+    background-image: url('https://media.staticontent.com/media/pictures/04641818-297a-4f28-b635-b15e2fb31087');
+    height: 250px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tatooine{
+    background-image: url('https://disneyplusbrasil.com.br/wp-content/uploads/2022/03/Planeta-Tatooine-Star-Wars.jpg');
+    height: 250px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+main div div div .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cidade{
+    padding: 20px;
+    width: min-content;
+    font-size: xx-large;
+}
+
+button{
+    height: 25px;
+    align-self: center;
+    text-align: right;
+    background-color: coral;
+    border: 2px black solid;
+    border-radius: 5px;
+    align-items: center;
+    width: 35%;
+}
+
+h4{
+    align-self: center;
+    font-size:xx-large;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer{
+    background-color: darkred;
+    color: white;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.busca{
+    justify-content: space-evenly;
+    width: 75%;
+    align-self: center;
+}
+

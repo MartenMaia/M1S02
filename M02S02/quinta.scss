@@ -1,0 +1,41 @@
+//Declaração de variavel
+$nome-varaivel: red;
+
+//Criação de mini funções
+@mixin flexbox($padding-size){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $padding-size;
+}
+
+.box{
+    .box-header{
+        color: $nome-varaivel;
+        padding: 2px 5px;
+        display: flex;
+        h2{
+            &.title{ //h2&class=title
+                @include flexbox(12px);
+            }
+            .cabecalho-box,
+            div{
+                @include flexbox(12px);
+               bottom{
+                    &:hover{ //pseudoclasse hover
+                        @include flexbox(0px);
+                    }
+                }
+                &:first-child{
+                    color: green($color: #000000);
+                    display: flex;
+
+                }
+
+            }
+        }
+    }
+}
+
+//PARA RODAR ESTA CODIGO NO HTML, É PRECISO FAZER UMA CONVERSÃO VIA SASS
+// COMANDO: $ sass --watch {nome do arquivo.scss}:{novo nome do arquivo.css}

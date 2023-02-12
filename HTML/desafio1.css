@@ -1,0 +1,26 @@
+p{
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:5px;
+}
+
+#pao{
+    color: chocolate;
+}
+#laranja{
+    color: orange;
+}
+#limao{
+    color: green;
+}
+#vinho{
+    color: maroon;
+}
+
+div{
+    background-color: gainsboro;
+    border: 30px ;
+    padding: 5px;
+    margin: 10px 5px;
+    width: max-content;
+}

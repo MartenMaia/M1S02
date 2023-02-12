@@ -1,0 +1,138 @@
+:root{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    font-weight: 500;
+    color: red;
+}
+
+div, h1, h2{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+}
+
+.left, .right{
+    height: 20px;
+    margin: 10px;
+}
+
+.divisao{
+    width: 100%;
+    background-color: rgba(255,255,255,0.2);
+    height: 7px;
+}
+
+.tt{
+    height: 30em;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.8) 30%,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0.8)),
+        url("sapatoflixfundo.jpg");
+}
+
+.tt h2,.tt p{
+    font-weight: 700;
+    font-size: x-large;
+}
+
+div div, h1, h2, p, a, img{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+p, h2{
+    font-weight: 300;
+    font-size: large;
+}
+
+button, select{
+    width: 100px;
+    height: 30px;
+}
+
+input{
+    width: 400px;
+    height: 24px;
+}
+
+.envio{
+    display: flex;
+    flex-direction: row;
+}
+
+.Listas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    flex: 1;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.infos{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding:30px;
+}
+
+.infos div{
+    flex: 3;
+}
+
+.infosreverse{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    padding:30px;
+}
+
+.infosreverse div{
+    flex: 3;
+}
+
+.perguntas{
+    display: flex;
+    width: 80%;
+    align-self: center;
+    margin-top: 30px;
+}
+
+.perguntas button{
+    width: 100%;
+    font-weight: 700;
+    font-size: larger;
+}
+
+footer{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}

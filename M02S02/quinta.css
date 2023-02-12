@@ -1,0 +1,32 @@
+.box .box-header {
+  color: red;
+  padding: 2px 5px;
+  display: flex;
+}
+.box .box-header h2.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.box .box-header h2 .cabecalho-box,
+.box .box-header h2 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.box .box-header h2 .cabecalho-box bottom:hover,
+.box .box-header h2 div bottom:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+.box .box-header h2 .cabecalho-box:first-child,
+.box .box-header h2 div:first-child {
+  color: 0;
+  display: flex;
+}
+
+/*# sourceMappingURL=quinta.css.map */

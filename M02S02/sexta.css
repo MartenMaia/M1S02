@@ -1,0 +1,15 @@
+.row, input {
+  margin: 5px;
+  padding: 20px;
+}
+
+button {
+  width: 200px;
+}
+
+.btn-primary {
+  background-color: darkorange !important;
+  border-color: darkorange;
+}
+
+/*# sourceMappingURL=sexta.css.map */
